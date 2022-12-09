@@ -1,3 +1,3 @@
-const managerEmail = "akash@gmail.com"
+const managerEmail = "angana@gmail.com"
 
 module.exports.myEmail = managerEmail
