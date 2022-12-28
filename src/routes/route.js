@@ -9,7 +9,7 @@ router.post("/users", userController.createUser)
 router.post("/login", userController.loginUser)
 
 
-router.get("/users/:userId", MIddleWare.MidMW ,userController.getuser)
+router.get("/users/:userId",userController.getuser)
 
 router.put("/users/:userId",MIddleWare.MidMW ,userController.updateUser)
 
